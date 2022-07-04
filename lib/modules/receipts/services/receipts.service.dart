@@ -4,7 +4,7 @@ import 'package:bus_poa/modules/receipts/services/printer.service.dart';
 import 'package:bus_poa/modules/receipts/states/receipts.state.dart';
 
 class ReceiptsService {
-  final serverUrl = "https://buspoa.co.tz/buspoa/website/Payment/getTicketJson";
+  final serverUrl = "https://buspoatz.co.tz/buspoa/website/Payment/getTicketJson";
   final printerService = PrinterService();
 
   Future fetchReceiptDetails(String receipt) async {
